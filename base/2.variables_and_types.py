@@ -7,6 +7,8 @@ age = 30
 height = 1.75
 is_student = True
 classes = ["Math", "Science", "History"]
+roles = ("Admin", "User", "Guest")
+languages = {"Python": "Programming", "English": "Language", "Spanish": "Language"}
 
 # Types of variables
 # Use the type() function to check the type of each variable
@@ -17,6 +19,8 @@ print("Age:", age, "Type:", type(age))
 print("Height:", height, "Type:", type(height))
 print("Is Student:", is_student, "Type:", type(is_student))
 print("Classes:", classes, "Type:", type(classes))
+print("Roles:", roles, "Type:", type(roles))
+print("Languages:", languages, "Type:", type(languages))
 
 #
 # Type conversion
