@@ -1,14 +1,18 @@
 #
 # Variables in Python
 #
-name = "John"
-last_name = "Doe"
-age = 30
-height = 1.75
-is_student = True
-classes = ["Math", "Science", "History"]
-roles = ("Admin", "User", "Guest")
-languages = {"Python": "Programming", "English": "Language", "Spanish": "Language"}
+name: str = "John"
+last_name: str = "Doe"
+age: int = 30
+height: float = 1.75
+is_student: bool = True
+classes: list[str] = ["Math", "Science", "History"]
+roles: tuple[str, str, str] = ("Admin", "User", "Guest")
+languages: dict[str, str] = {
+    "Python": "Programming",
+    "English": "Language",
+    "Spanish": "Language",
+}
 
 # Types of variables
 # Use the type() function to check the type of each variable
@@ -25,11 +29,11 @@ print("Languages:", languages, "Type:", type(languages))
 #
 # Type conversion
 #
-age_str = str(age)  # Convert age to a string
-height_int = int(
+age_str: str = str(age)  # Convert age to a string
+height_int: int = int(
     height
 )  # Convert height to an integer (this will truncate the decimal part)
-is_student_str = str(is_student)  # Convert is_student to a string
+is_student_str: str = str(is_student)  # Convert is_student to a string
 
 print("\n\nType Conversion:")
 print("Age as string:", age_str, "Type:", type(age_str))

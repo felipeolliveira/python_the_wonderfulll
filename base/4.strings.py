@@ -10,12 +10,12 @@ last_name = "Doe"
 role = "Software Developer"
 
 # Can use triple quotes for multi-line strings
-role_description = """John Doe is a Software Developer with extensive experience in Python and web development.
+role_description: str = """John Doe is a Software Developer with extensive experience in Python and web development.
 He has worked on various projects, including web applications, data analysis, and automation scripts.
 John is passionate about learning new technologies and improving his skills in software development."""
 
 # Can use backslashes to continue a string on the next line without adding a newline character
-hobbies = "John enjoys hiking, \
+hobbies: str = "John enjoys hiking, \
 playing guitar, and cooking in his free time."
 
 print("\n\nString Operations:")

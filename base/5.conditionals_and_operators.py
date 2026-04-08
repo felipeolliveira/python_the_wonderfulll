@@ -29,3 +29,11 @@ else:
 
 if age < 18 or age >= 65:
     print("You are eligible for a discount.")
+
+#
+# Oneline if statements
+# - <true_result> if <condition> else <false_result>
+#
+
+is_raining = True
+print("Take an umbrella.") if is_raining else print("Enjoy the sunshine!")
